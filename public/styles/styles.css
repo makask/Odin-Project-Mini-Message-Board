@@ -1,0 +1,119 @@
+body{
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #eaf6f6;
+}
+
+.header{
+    text-align: center;
+    font-size: 24px;
+}
+
+.header h1{
+    color: #f76b8a;
+    text-decoration: underline;
+    text-shadow: 1px 3px #c92626;
+}
+
+.btn-div{
+    margin-bottom: 3rem;
+}
+
+button{
+    height: 30px;
+    width: 180px;
+    background-color: #66bfbf;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+    -moz-box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+    box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+button a, button[type="submit"]{
+    text-decoration: none;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #eaf6f6;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{ 
+   width: 700px;
+   min-height: 200px;
+   border: 3px solid #f76b8a;
+   border-radius: 10px;
+   background-color: #fcfefe;
+   color: darkslategray;
+   -webkit-box-shadow: 10px 10px 5px -7px rgba(235,195,217,1);
+   -moz-box-shadow: 10px 10px 5px -7px rgba(235,195,217,1);
+   box-shadow: 10px 10px 5px -7px rgba(235,195,217,1);
+}
+
+.card-info{
+    float: right;
+}
+
+.card-message p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.card-info p {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+}
+
+textarea{
+    width: 20rem;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    -webkit-box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+    -moz-box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+    box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+}
+
+form input{
+    width: 20rem;
+    height: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    -webkit-box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+    -moz-box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+    box-shadow: 10px 11px 12px -8px rgba(87,138,129,1);
+}
+
+button[type="submit"]{
+    margin-top: 2rem;
+}
+

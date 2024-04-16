@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs'); -%>
+    <div class="main-container">
+        <div class="btn-div">
+            <button><a href="/new">New Message</a></button>
+        </div>
+        <div class="cards-container">
+            <%if(locals.messages && locals.title){%>
+                <%messages.forEach((message) => {%>
+                    <div class="card">
+                        <div class="card-message">
+                            <p><%= message.text %></p> 
+                        </div>
+                        <div class="card-info">
+                            <p><%= message.user %></p>
+                            <p><%= message.added %></p>
+                        </div>
+                    </div>
+                <%});%>
+            <%}%>
+        </div>
+    </div>
+</body>
+</html>

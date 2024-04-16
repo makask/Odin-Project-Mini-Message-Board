@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs'); -%>
+    <div class="main-container">
+        <div class="btn-div">
+            <button><a href="/">Back</a></button>
+        </div>
+            <form action="/new" method="POST">
+                <label for="text">Message:</label>
+                <textarea id="text" name="text" placeholder="Message..." required></textarea>
+                <label for="user">User:</label>
+                <input id="user" type="text" name="user" placeholder="User" required/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+</body>
+</html>
