@@ -1,7 +1,7 @@
 Project: Mini Message Board
 Odin Project NodeJS Course
 
-Mini message board implemented with a node Express server.
+Mini message board implemented with a node Express server and EJS templating language.
 
 Assignment: 
 - Use express-generator to set up a basic project using whichever templating language you prefer or set it up manually.
